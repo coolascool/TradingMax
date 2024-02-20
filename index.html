@@ -43,15 +43,11 @@
                         <div id="signin-popup">
                             <div id="signin-form">
                                 <h2 class="signin">SIGNIN</h2><hr class="horizontal">
-                                <form action="loginvefi.jsp" method="post" class="sign-in">
+                                <form action="" method="post" class="sign-in">
                                     <label for="email">Email:</label>
                                     <input type="text" id="email" name="email" placeholder="Email" required />
                                     <label for="password">Password:</label>
                                     <input type="password" id="password" name="password" placeholder="Password" required />
-                                    <!-- <p class="check-mark">
-                                        <input type="checkbox" id="remember-me">
-                                        <label for="remember-me">Remember me</label>
-                                    </p> -->
                                     <button type="submit" onclick="signIn()">Sign In</button>
                                     <p onclick="newuser()">New member? Create an Account</p>
                                 </form>
@@ -64,7 +60,7 @@
                         <div id="signup-popup">
                             <div id="signup-form">
                                 <h2 class="signup">SIGNUP</h2><hr class="horizontal">
-                                <form action="Register.jsp" method="post" class="register">
+                                <form action="" method="post" class="register">
                                     <label for="name-register">Name:</label>
                                     <input type="text" name="name" id="name-register" placeholder="Name" required />
                                     <label for="email-register">Email:</label>
@@ -73,10 +69,6 @@
                                     <input type="tel" name="mobile" id="mobile" placeholder="Mobile" required />
                                     <label for="password-register">Create Password:</label>
                                     <input type="password" name="password" id="password-register" placeholder="Password" required />
-                                    <!-- <p class="check-mark">
-                                      <input type="checkbox" id="accept-terms">
-                                      <label for="accept-terms">I agree to the <a href="#">Terms</a></label>
-                                    </p> -->
                                     <button type="submit">Sign Up</button>
                                     <p onclick="olduser()">Have an account? Sign In</p>
                                 </form>
@@ -179,6 +171,31 @@
         </div>
     </div>
     <!-- ----- navbar ended ----- -->
+
+    <!-- youtube slider and promotions-->
+    <div class="video-container">
+        <div class="video-box">
+            <iframe width="440" height="300" src="https://www.youtube.com/embed/csVh2a1qYDk"
+                title="Stock market Motivation" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="video-box">
+            <iframe width="440" height="300" src="https://www.youtube.com/embed/SQm3RxXRunw"
+                title="Lenskart Customer Testimonial" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="video-box">
+            <iframe width="440" height="300" src="https://www.youtube.com/embed/IZpUQ-S_LcM"
+                title="Lenskart - The Customer Diaries - Anurag" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- youtube slider and promotions -->
+
+
     <script src="./src/js/script.js"></script>
     <!-- chatbot -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

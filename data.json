@@ -1,60 +1,41 @@
 {
-    "userdata": [
+    "userdata": 
+    [
       {
-        "fname": "RAHUL",
-        "lname": "KUMAR",
+        "name": "RAHUL KUMAR",
         "email": "roy705051@gmail.com",
         "mob": "906073384",
         "gender": "male",
         "dob": "2002-02-24",
-        "country": "India",
-        "state": "Bihar",
-        "city": "jamui",
-        "pin": "811307",
         "password": "123456",
         "id": 1
       },
       {
-        "fname": "shubham",
-        "lname": "singh",
+        "name": "shubham singh",
         "email": "kshubham329@gmail.com",
         "mob": "7004410059",
         "gender": "male",
         "dob": "2003-07-26",
-        "country": "India",
-        "state": "Jharkhand",
-        "city": "bokaro",
-        "pin": "827004",
         "password": "123abc",
         "id": 2
       },
       {
-        "fname": "Sharun",
-        "lname": "Sir",
+        "name": "Sharun sir",
         "email": "sharun123@gmail.com",
         "mob": "3216165",
         "gender": "male",
-        "dob": "2022-07-01",
-        "country": "India",
-        "state": "xyw",
-        "city": "bbs",
-        "pin": "811307",
+        "dob": "2003-07-26",
         "password": "123456",
         "id": 3
       },
       {
-        "fname": "ANIKET",
-        "lname": "KUMAR",
+        "fname": "ANIKET KUMAR",
         "email": "aniket.787068@gmail.com",
-        "mob": "3216165",
+        "mob": "9060027191",
         "gender": "male",
-        "dob": "2022-07-01",
-        "country": "India",
-        "state": "xyw",
-        "city": "bbs",
-        "pin": "811307",
+        "dob": "2003-07-26",
         "password": "12345",
         "id": 4
       }
     ]
-  }
+}
