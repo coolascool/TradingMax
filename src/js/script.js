@@ -68,3 +68,21 @@ function olduser(){
 }
 
 // -----> navbar ended
+
+// ----->   contact
+// google sheet && span
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyHrWqQXy1ZOMkm3bUuYaVF9iiZMFnQwXhrsao8Ze_AVupViPTxGsKz4i5c6o3_cfJJ/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
