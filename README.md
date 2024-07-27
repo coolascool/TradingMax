@@ -1,1 +1,2 @@
- /// TRADING-MAX ///
+# TRADING-MAX
+## netlify - https://tradingmax.netlify.app/
